@@ -208,7 +208,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", ".readthedocs.yaml"]
+include: ["_pages", ".readthedocs.yml"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -232,7 +232,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
-  - .readthedocs.yaml
+  - .readthedocs.yml
 
 # Plug-ins
 plugins:
