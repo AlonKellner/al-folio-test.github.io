@@ -78,14 +78,14 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Debug before
-        run: ls
+        run: ls -a
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Debug after
-        run: ls _site
+        run: ls -a _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
