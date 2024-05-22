@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alonkellner.github.io/al-folio-test.github.io/sitemap.xml
+Sitemap: https://al-folio-testgithubio.readthedocs.io/en/latest/sitemap.xml
