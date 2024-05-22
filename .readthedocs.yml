@@ -6,6 +6,4 @@ build:
     python: "3.12"
   commands:
     - mkdir -p ${READTHEDOCS_OUTPUT}html/
-    - shopt -s extglob dotglob
-    - mv !(${READTHEDOCS_OUTPUT}) ${READTHEDOCS_OUTPUT}html/
-    - shopt -u dotglob
+    - mv * ${READTHEDOCS_OUTPUT}html/ | true
