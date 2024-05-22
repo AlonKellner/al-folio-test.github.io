@@ -232,6 +232,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  - .readthedocs.yaml
 
 # Plug-ins
 plugins:
@@ -266,7 +267,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
+  exclude: ["robots.txt", ".readthedocs.yaml"]
   uglifier_args:
     harmony: true
 
